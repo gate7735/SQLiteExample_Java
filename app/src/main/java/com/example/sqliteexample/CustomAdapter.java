@@ -86,7 +86,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
                                 et_title.setText(todoItem.getTitle());
                                 et_content.setText(todoItem.getContent());
 
-                                et_title.setSelection(et_title.getText().length()); // 커서를 글자의 마지막으로 이동
+                                et_title.setSelection(et_title.getText().length()   ); // 커서를 글자의 마지막으로 이동
                                 btn_ok.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
